@@ -7,19 +7,9 @@ function launchPopup(message, sender, sendResponse) {
   searchParams.set('network', message.data.params.network);
   searchParams.set('request', JSON.stringify(message.data));
 
-  // TODO consolidate popup dimensions
-  chrome.windows.getLastFocused((focusedWindow) => {
-    chrome.windows.create({
-      url: 'index.html#' + searchParams.toString(),
-      type: 'popup',
-      width: 375,
-      height: 600,
-      top: focusedWindow.top,
-      left: focusedWindow.left + (focusedWindow.width - 375),
-      setSelfAsOpener: true,
-      focused: true,
-    });
-  });
+  browser.browserAction.setPopup({popup: 'index.html#' + searchParams.toString()})
+  // todo: show the correct number of notifications
+  browser.browserAction.setBadgeText({text: "*"})
 
   responseHandlers.set(message.data.id, sendResponse);
 }
@@ -53,6 +43,7 @@ function handleDisconnect(message, sender, sendResponse) {
 }
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+
   if (message.channel === 'sollet_contentscript_background_channel') {
     if (message.data.method === 'connect') {
       handleConnect(message, sender, sendResponse);

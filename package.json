@@ -51,6 +51,7 @@
     "build": "react-scripts build",
     "build:extension": "yarn build && cp -a ./build/. ./extension/build/ && yarn build:extension-scripts",
     "build:extension-scripts": "cp -a ./extension/src/. ./extension/build/.",
+    "build:safar-extension": "yarn build extension && xcrun safari-web-extension-converter --swift --no-open --bundle-identifier com.twodayslate.sollet --project-location ./safari ./extension/build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
