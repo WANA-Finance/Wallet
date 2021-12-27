@@ -1,0 +1,1007 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F661F8902776FDD0005C36E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661F88F2776FDD0005C36E8 /* AppDelegate.swift */; };
+		F661F8922776FDD0005C36E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661F8912776FDD0005C36E8 /* SceneDelegate.swift */; };
+		F661F8952776FDD0005C36E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F661F8932776FDD0005C36E8 /* LaunchScreen.storyboard */; };
+		F661F8982776FDD0005C36E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F661F8962776FDD0005C36E8 /* Main.storyboard */; };
+		F661F8A12776FDD0005C36E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661F8A02776FDD0005C36E8 /* AppDelegate.swift */; };
+		F661F8A42776FDD0005C36E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F661F8A22776FDD0005C36E8 /* Main.storyboard */; };
+		F661F8AC2776FDD0005C36E8 /* Sollet Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F661F8AB2776FDD0005C36E8 /* Sollet Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F661F8B62776FDD0005C36E8 /* Sollet Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F661F8B52776FDD0005C36E8 /* Sollet Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F661F8BC2776FDD0005C36E8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F661F87F2776FDCC005C36E8 /* Main.html */; };
+		F661F8BD2776FDD0005C36E8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F661F87F2776FDCC005C36E8 /* Main.html */; };
+		F661F8BE2776FDD0005C36E8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8812776FDCC005C36E8 /* Icon.png */; };
+		F661F8BF2776FDD0005C36E8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8812776FDCC005C36E8 /* Icon.png */; };
+		F661F8C02776FDD0005C36E8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F661F8822776FDCC005C36E8 /* Style.css */; };
+		F661F8C12776FDD0005C36E8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F661F8822776FDCC005C36E8 /* Style.css */; };
+		F661F8C22776FDD0005C36E8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F661F8832776FDCC005C36E8 /* Script.js */; };
+		F661F8C32776FDD0005C36E8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F661F8832776FDCC005C36E8 /* Script.js */; };
+		F661F8C42776FDD0005C36E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661F8842776FDCC005C36E8 /* ViewController.swift */; };
+		F661F8C52776FDD0005C36E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661F8842776FDCC005C36E8 /* ViewController.swift */; };
+		F661F8C62776FDD0005C36E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F661F8852776FDD0005C36E8 /* Assets.xcassets */; };
+		F661F8C72776FDD0005C36E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F661F8852776FDD0005C36E8 /* Assets.xcassets */; };
+		F661F8C82776FDD0005C36E8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661F8872776FDD0005C36E8 /* SafariWebExtensionHandler.swift */; };
+		F661F8C92776FDD0005C36E8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661F8872776FDD0005C36E8 /* SafariWebExtensionHandler.swift */; };
+		F661F8EA2776FDD3005C36E8 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = F661F8DB2776FDD3005C36E8 /* favicon.ico */; };
+		F661F8EB2776FDD3005C36E8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F661F8DC2776FDD3005C36E8 /* index.html */; };
+		F661F8EC2776FDD3005C36E8 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F661F8DD2776FDD3005C36E8 /* background.js */; };
+		F661F8ED2776FDD3005C36E8 /* CNAME in Resources */ = {isa = PBXBuildFile; fileRef = F661F8DE2776FDD3005C36E8 /* CNAME */; };
+		F661F8EE2776FDD3005C36E8 /* logo512.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8DF2776FDD3005C36E8 /* logo512.png */; };
+		F661F8EF2776FDD3005C36E8 /* sollet128.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E02776FDD3005C36E8 /* sollet128.png */; };
+		F661F8F02776FDD3005C36E8 /* asset-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E12776FDD3005C36E8 /* asset-manifest.json */; };
+		F661F8F12776FDD3005C36E8 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E22776FDD3005C36E8 /* script.js */; };
+		F661F8F22776FDD3005C36E8 /* static in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E32776FDD3005C36E8 /* static */; };
+		F661F8F32776FDD3005C36E8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E42776FDD3005C36E8 /* manifest.json */; };
+		F661F8F42776FDD3005C36E8 /* sollet_screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E52776FDD3005C36E8 /* sollet_screenshot.png */; };
+		F661F8F52776FDD3005C36E8 /* robots.txt in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E62776FDD3005C36E8 /* robots.txt */; };
+		F661F8F62776FDD3005C36E8 /* sollet_screenshot_1280x800.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E72776FDD3005C36E8 /* sollet_screenshot_1280x800.png */; };
+		F661F8F72776FDD3005C36E8 /* contentscript.js in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E82776FDD3005C36E8 /* contentscript.js */; };
+		F661F8F82776FDD3005C36E8 /* logo192.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E92776FDD3005C36E8 /* logo192.png */; };
+		F661F8F92776FDD3005C36E8 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = F661F8DB2776FDD3005C36E8 /* favicon.ico */; };
+		F661F8FA2776FDD3005C36E8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F661F8DC2776FDD3005C36E8 /* index.html */; };
+		F661F8FB2776FDD3005C36E8 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F661F8DD2776FDD3005C36E8 /* background.js */; };
+		F661F8FC2776FDD3005C36E8 /* CNAME in Resources */ = {isa = PBXBuildFile; fileRef = F661F8DE2776FDD3005C36E8 /* CNAME */; };
+		F661F8FD2776FDD3005C36E8 /* logo512.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8DF2776FDD3005C36E8 /* logo512.png */; };
+		F661F8FE2776FDD3005C36E8 /* sollet128.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E02776FDD3005C36E8 /* sollet128.png */; };
+		F661F8FF2776FDD3005C36E8 /* asset-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E12776FDD3005C36E8 /* asset-manifest.json */; };
+		F661F9002776FDD3005C36E8 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E22776FDD3005C36E8 /* script.js */; };
+		F661F9012776FDD3005C36E8 /* static in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E32776FDD3005C36E8 /* static */; };
+		F661F9022776FDD3005C36E8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E42776FDD3005C36E8 /* manifest.json */; };
+		F661F9032776FDD3005C36E8 /* sollet_screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E52776FDD3005C36E8 /* sollet_screenshot.png */; };
+		F661F9042776FDD3005C36E8 /* robots.txt in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E62776FDD3005C36E8 /* robots.txt */; };
+		F661F9052776FDD3005C36E8 /* sollet_screenshot_1280x800.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E72776FDD3005C36E8 /* sollet_screenshot_1280x800.png */; };
+		F661F9062776FDD3005C36E8 /* contentscript.js in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E82776FDD3005C36E8 /* contentscript.js */; };
+		F661F9072776FDD3005C36E8 /* logo192.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8E92776FDD3005C36E8 /* logo192.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F661F8AD2776FDD0005C36E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F661F8792776FDCC005C36E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F661F8AA2776FDD0005C36E8;
+			remoteInfo = "Sollet Extension (iOS)";
+		};
+		F661F8B72776FDD0005C36E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F661F8792776FDCC005C36E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F661F8B42776FDD0005C36E8;
+			remoteInfo = "Sollet Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F661F8CF2776FDD0005C36E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F661F8AC2776FDD0005C36E8 /* Sollet Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661F8D62776FDD0005C36E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F661F8B62776FDD0005C36E8 /* Sollet Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F661F8802776FDCC005C36E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		F661F8812776FDCC005C36E8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F661F8822776FDCC005C36E8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		F661F8832776FDCC005C36E8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		F661F8842776FDCC005C36E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F661F8852776FDD0005C36E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F661F8872776FDD0005C36E8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F661F88C2776FDD0005C36E8 /* Sollet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sollet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661F88F2776FDD0005C36E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F661F8912776FDD0005C36E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F661F8942776FDD0005C36E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F661F8972776FDD0005C36E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F661F8992776FDD0005C36E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F661F89E2776FDD0005C36E8 /* Sollet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sollet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661F8A02776FDD0005C36E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F661F8A32776FDD0005C36E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F661F8A52776FDD0005C36E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F661F8A62776FDD0005C36E8 /* Sollet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sollet.entitlements; sourceTree = "<group>"; };
+		F661F8AB2776FDD0005C36E8 /* Sollet Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sollet Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661F8B02776FDD0005C36E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F661F8B52776FDD0005C36E8 /* Sollet Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sollet Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661F8BA2776FDD0005C36E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F661F8BB2776FDD0005C36E8 /* Sollet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sollet.entitlements; sourceTree = "<group>"; };
+		F661F8DB2776FDD3005C36E8 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = favicon.ico; path = ../../../extension/build/favicon.ico; sourceTree = "<group>"; };
+		F661F8DC2776FDD3005C36E8 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = ../../../extension/build/index.html; sourceTree = "<group>"; };
+		F661F8DD2776FDD3005C36E8 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../../extension/build/background.js; sourceTree = "<group>"; };
+		F661F8DE2776FDD3005C36E8 /* CNAME */ = {isa = PBXFileReference; lastKnownFileType = text; name = CNAME; path = ../../../extension/build/CNAME; sourceTree = "<group>"; };
+		F661F8DF2776FDD3005C36E8 /* logo512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo512.png; path = ../../../extension/build/logo512.png; sourceTree = "<group>"; };
+		F661F8E02776FDD3005C36E8 /* sollet128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sollet128.png; path = ../../../extension/build/sollet128.png; sourceTree = "<group>"; };
+		F661F8E12776FDD3005C36E8 /* asset-manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "asset-manifest.json"; path = "../../../extension/build/asset-manifest.json"; sourceTree = "<group>"; };
+		F661F8E22776FDD3005C36E8 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = script.js; path = ../../../extension/build/script.js; sourceTree = "<group>"; };
+		F661F8E32776FDD3005C36E8 /* static */ = {isa = PBXFileReference; lastKnownFileType = folder; name = static; path = ../../../extension/build/static; sourceTree = "<group>"; };
+		F661F8E42776FDD3005C36E8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../extension/build/manifest.json; sourceTree = "<group>"; };
+		F661F8E52776FDD3005C36E8 /* sollet_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sollet_screenshot.png; path = ../../../extension/build/sollet_screenshot.png; sourceTree = "<group>"; };
+		F661F8E62776FDD3005C36E8 /* robots.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = robots.txt; path = ../../../extension/build/robots.txt; sourceTree = "<group>"; };
+		F661F8E72776FDD3005C36E8 /* sollet_screenshot_1280x800.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sollet_screenshot_1280x800.png; path = ../../../extension/build/sollet_screenshot_1280x800.png; sourceTree = "<group>"; };
+		F661F8E82776FDD3005C36E8 /* contentscript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = contentscript.js; path = ../../../extension/build/contentscript.js; sourceTree = "<group>"; };
+		F661F8E92776FDD3005C36E8 /* logo192.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo192.png; path = ../../../extension/build/logo192.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F661F8892776FDD0005C36E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661F89B2776FDD0005C36E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661F8A82776FDD0005C36E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661F8B22776FDD0005C36E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F661F8782776FDCC005C36E8 = {
+			isa = PBXGroup;
+			children = (
+				F661F87D2776FDCC005C36E8 /* Shared (App) */,
+				F661F8862776FDD0005C36E8 /* Shared (Extension) */,
+				F661F88E2776FDD0005C36E8 /* iOS (App) */,
+				F661F89F2776FDD0005C36E8 /* macOS (App) */,
+				F661F8AF2776FDD0005C36E8 /* iOS (Extension) */,
+				F661F8B92776FDD0005C36E8 /* macOS (Extension) */,
+				F661F88D2776FDD0005C36E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F661F87D2776FDCC005C36E8 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F661F8842776FDCC005C36E8 /* ViewController.swift */,
+				F661F8852776FDD0005C36E8 /* Assets.xcassets */,
+				F661F87E2776FDCC005C36E8 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		F661F87E2776FDCC005C36E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F661F87F2776FDCC005C36E8 /* Main.html */,
+				F661F8812776FDCC005C36E8 /* Icon.png */,
+				F661F8822776FDCC005C36E8 /* Style.css */,
+				F661F8832776FDCC005C36E8 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F661F8862776FDD0005C36E8 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F661F8DA2776FDD3005C36E8 /* Resources */,
+				F661F8872776FDD0005C36E8 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		F661F88D2776FDD0005C36E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F661F88C2776FDD0005C36E8 /* Sollet.app */,
+				F661F89E2776FDD0005C36E8 /* Sollet.app */,
+				F661F8AB2776FDD0005C36E8 /* Sollet Extension.appex */,
+				F661F8B52776FDD0005C36E8 /* Sollet Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F661F88E2776FDD0005C36E8 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F661F88F2776FDD0005C36E8 /* AppDelegate.swift */,
+				F661F8912776FDD0005C36E8 /* SceneDelegate.swift */,
+				F661F8932776FDD0005C36E8 /* LaunchScreen.storyboard */,
+				F661F8962776FDD0005C36E8 /* Main.storyboard */,
+				F661F8992776FDD0005C36E8 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		F661F89F2776FDD0005C36E8 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F661F8A02776FDD0005C36E8 /* AppDelegate.swift */,
+				F661F8A22776FDD0005C36E8 /* Main.storyboard */,
+				F661F8A52776FDD0005C36E8 /* Info.plist */,
+				F661F8A62776FDD0005C36E8 /* Sollet.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		F661F8AF2776FDD0005C36E8 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F661F8B02776FDD0005C36E8 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		F661F8B92776FDD0005C36E8 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F661F8BA2776FDD0005C36E8 /* Info.plist */,
+				F661F8BB2776FDD0005C36E8 /* Sollet.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		F661F8DA2776FDD3005C36E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F661F8DB2776FDD3005C36E8 /* favicon.ico */,
+				F661F8DC2776FDD3005C36E8 /* index.html */,
+				F661F8DD2776FDD3005C36E8 /* background.js */,
+				F661F8DE2776FDD3005C36E8 /* CNAME */,
+				F661F8DF2776FDD3005C36E8 /* logo512.png */,
+				F661F8E02776FDD3005C36E8 /* sollet128.png */,
+				F661F8E12776FDD3005C36E8 /* asset-manifest.json */,
+				F661F8E22776FDD3005C36E8 /* script.js */,
+				F661F8E32776FDD3005C36E8 /* static */,
+				F661F8E42776FDD3005C36E8 /* manifest.json */,
+				F661F8E52776FDD3005C36E8 /* sollet_screenshot.png */,
+				F661F8E62776FDD3005C36E8 /* robots.txt */,
+				F661F8E72776FDD3005C36E8 /* sollet_screenshot_1280x800.png */,
+				F661F8E82776FDD3005C36E8 /* contentscript.js */,
+				F661F8E92776FDD3005C36E8 /* logo192.png */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F661F88B2776FDD0005C36E8 /* Sollet (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F661F8D02776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet (iOS)" */;
+			buildPhases = (
+				F661F8882776FDD0005C36E8 /* Sources */,
+				F661F8892776FDD0005C36E8 /* Frameworks */,
+				F661F88A2776FDD0005C36E8 /* Resources */,
+				F661F8CF2776FDD0005C36E8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F661F8AE2776FDD0005C36E8 /* PBXTargetDependency */,
+			);
+			name = "Sollet (iOS)";
+			productName = "Sollet (iOS)";
+			productReference = F661F88C2776FDD0005C36E8 /* Sollet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F661F89D2776FDD0005C36E8 /* Sollet (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F661F8D72776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet (macOS)" */;
+			buildPhases = (
+				F661F89A2776FDD0005C36E8 /* Sources */,
+				F661F89B2776FDD0005C36E8 /* Frameworks */,
+				F661F89C2776FDD0005C36E8 /* Resources */,
+				F661F8D62776FDD0005C36E8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F661F8B82776FDD0005C36E8 /* PBXTargetDependency */,
+			);
+			name = "Sollet (macOS)";
+			productName = "Sollet (macOS)";
+			productReference = F661F89E2776FDD0005C36E8 /* Sollet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F661F8AA2776FDD0005C36E8 /* Sollet Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F661F8CC2776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet Extension (iOS)" */;
+			buildPhases = (
+				F661F8A72776FDD0005C36E8 /* Sources */,
+				F661F8A82776FDD0005C36E8 /* Frameworks */,
+				F661F8A92776FDD0005C36E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sollet Extension (iOS)";
+			productName = "Sollet Extension (iOS)";
+			productReference = F661F8AB2776FDD0005C36E8 /* Sollet Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F661F8B42776FDD0005C36E8 /* Sollet Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F661F8D32776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet Extension (macOS)" */;
+			buildPhases = (
+				F661F8B12776FDD0005C36E8 /* Sources */,
+				F661F8B22776FDD0005C36E8 /* Frameworks */,
+				F661F8B32776FDD0005C36E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sollet Extension (macOS)";
+			productName = "Sollet Extension (macOS)";
+			productReference = F661F8B52776FDD0005C36E8 /* Sollet Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F661F8792776FDCC005C36E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F661F88B2776FDD0005C36E8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F661F89D2776FDD0005C36E8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F661F8AA2776FDD0005C36E8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F661F8B42776FDD0005C36E8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F661F87C2776FDCC005C36E8 /* Build configuration list for PBXProject "Sollet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F661F8782776FDCC005C36E8;
+			productRefGroup = F661F88D2776FDD0005C36E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F661F88B2776FDD0005C36E8 /* Sollet (iOS) */,
+				F661F89D2776FDD0005C36E8 /* Sollet (macOS) */,
+				F661F8AA2776FDD0005C36E8 /* Sollet Extension (iOS) */,
+				F661F8B42776FDD0005C36E8 /* Sollet Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F661F88A2776FDD0005C36E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661F8BE2776FDD0005C36E8 /* Icon.png in Resources */,
+				F661F8952776FDD0005C36E8 /* LaunchScreen.storyboard in Resources */,
+				F661F8BC2776FDD0005C36E8 /* Main.html in Resources */,
+				F661F8C22776FDD0005C36E8 /* Script.js in Resources */,
+				F661F8C62776FDD0005C36E8 /* Assets.xcassets in Resources */,
+				F661F8982776FDD0005C36E8 /* Main.storyboard in Resources */,
+				F661F8C02776FDD0005C36E8 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661F89C2776FDD0005C36E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661F8BF2776FDD0005C36E8 /* Icon.png in Resources */,
+				F661F8C12776FDD0005C36E8 /* Style.css in Resources */,
+				F661F8A42776FDD0005C36E8 /* Main.storyboard in Resources */,
+				F661F8C32776FDD0005C36E8 /* Script.js in Resources */,
+				F661F8C72776FDD0005C36E8 /* Assets.xcassets in Resources */,
+				F661F8BD2776FDD0005C36E8 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661F8A92776FDD0005C36E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661F8FE2776FDD3005C36E8 /* sollet128.png in Resources */,
+				F661F9062776FDD3005C36E8 /* contentscript.js in Resources */,
+				F661F9072776FDD3005C36E8 /* logo192.png in Resources */,
+				F661F9002776FDD3005C36E8 /* script.js in Resources */,
+				F661F9022776FDD3005C36E8 /* manifest.json in Resources */,
+				F661F9052776FDD3005C36E8 /* sollet_screenshot_1280x800.png in Resources */,
+				F661F8F92776FDD3005C36E8 /* favicon.ico in Resources */,
+				F661F8FC2776FDD3005C36E8 /* CNAME in Resources */,
+				F661F8FD2776FDD3005C36E8 /* logo512.png in Resources */,
+				F661F9032776FDD3005C36E8 /* sollet_screenshot.png in Resources */,
+				F661F8FF2776FDD3005C36E8 /* asset-manifest.json in Resources */,
+				F661F8FB2776FDD3005C36E8 /* background.js in Resources */,
+				F661F9042776FDD3005C36E8 /* robots.txt in Resources */,
+				F661F9012776FDD3005C36E8 /* static in Resources */,
+				F661F8FA2776FDD3005C36E8 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661F8B32776FDD0005C36E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661F8EF2776FDD3005C36E8 /* sollet128.png in Resources */,
+				F661F8F72776FDD3005C36E8 /* contentscript.js in Resources */,
+				F661F8F82776FDD3005C36E8 /* logo192.png in Resources */,
+				F661F8F12776FDD3005C36E8 /* script.js in Resources */,
+				F661F8F32776FDD3005C36E8 /* manifest.json in Resources */,
+				F661F8F62776FDD3005C36E8 /* sollet_screenshot_1280x800.png in Resources */,
+				F661F8EA2776FDD3005C36E8 /* favicon.ico in Resources */,
+				F661F8ED2776FDD3005C36E8 /* CNAME in Resources */,
+				F661F8EE2776FDD3005C36E8 /* logo512.png in Resources */,
+				F661F8F42776FDD3005C36E8 /* sollet_screenshot.png in Resources */,
+				F661F8F02776FDD3005C36E8 /* asset-manifest.json in Resources */,
+				F661F8EC2776FDD3005C36E8 /* background.js in Resources */,
+				F661F8F52776FDD3005C36E8 /* robots.txt in Resources */,
+				F661F8F22776FDD3005C36E8 /* static in Resources */,
+				F661F8EB2776FDD3005C36E8 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F661F8882776FDD0005C36E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661F8C42776FDD0005C36E8 /* ViewController.swift in Sources */,
+				F661F8902776FDD0005C36E8 /* AppDelegate.swift in Sources */,
+				F661F8922776FDD0005C36E8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661F89A2776FDD0005C36E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661F8C52776FDD0005C36E8 /* ViewController.swift in Sources */,
+				F661F8A12776FDD0005C36E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661F8A72776FDD0005C36E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661F8C82776FDD0005C36E8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661F8B12776FDD0005C36E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661F8C92776FDD0005C36E8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F661F8AE2776FDD0005C36E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F661F8AA2776FDD0005C36E8 /* Sollet Extension (iOS) */;
+			targetProxy = F661F8AD2776FDD0005C36E8 /* PBXContainerItemProxy */;
+		};
+		F661F8B82776FDD0005C36E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F661F8B42776FDD0005C36E8 /* Sollet Extension (macOS) */;
+			targetProxy = F661F8B72776FDD0005C36E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F661F87F2776FDCC005C36E8 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F661F8802776FDCC005C36E8 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		F661F8932776FDD0005C36E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F661F8942776FDD0005C36E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F661F8962776FDD0005C36E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F661F8972776FDD0005C36E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F661F8A22776FDD0005C36E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F661F8A32776FDD0005C36E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F661F8CA2776FDD0005C36E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F661F8CB2776FDD0005C36E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F661F8CD2776FDD0005C36E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sollet Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet.Extension;
+				PRODUCT_NAME = "Sollet Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F661F8CE2776FDD0005C36E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sollet Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet.Extension;
+				PRODUCT_NAME = "Sollet Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F661F8D12776FDD0005C36E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Sollet;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet;
+				PRODUCT_NAME = Sollet;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F661F8D22776FDD0005C36E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Sollet;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet;
+				PRODUCT_NAME = Sollet;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F661F8D42776FDD0005C36E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Sollet.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sollet Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet.Extension;
+				PRODUCT_NAME = "Sollet Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F661F8D52776FDD0005C36E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Sollet.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sollet Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet.Extension;
+				PRODUCT_NAME = "Sollet Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F661F8D82776FDD0005C36E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Sollet.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Sollet;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet;
+				PRODUCT_NAME = Sollet;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F661F8D92776FDD0005C36E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Sollet.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Sollet;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet;
+				PRODUCT_NAME = Sollet;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F661F87C2776FDCC005C36E8 /* Build configuration list for PBXProject "Sollet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F661F8CA2776FDD0005C36E8 /* Debug */,
+				F661F8CB2776FDD0005C36E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F661F8CC2776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F661F8CD2776FDD0005C36E8 /* Debug */,
+				F661F8CE2776FDD0005C36E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F661F8D02776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F661F8D12776FDD0005C36E8 /* Debug */,
+				F661F8D22776FDD0005C36E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F661F8D32776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F661F8D42776FDD0005C36E8 /* Debug */,
+				F661F8D52776FDD0005C36E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F661F8D72776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F661F8D82776FDD0005C36E8 /* Debug */,
+				F661F8D92776FDD0005C36E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F661F8792776FDCC005C36E8 /* Project object */;
+}
