@@ -104,8 +104,9 @@ function PageContents() {
       </>
     );
   }
-  if (window.opener) {
-    return <PopupPage opener={window.opener} />;
+  const params = new URLSearchParams(window.location.hash.slice(1));
+  if (params.get('origin')) {
+    return <PopupPage opener={params.get('origin')} />;
   }
   if (page === 'wallet') {
     return <WalletPage />;

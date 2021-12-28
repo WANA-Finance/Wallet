@@ -7,11 +7,10 @@ function launchPopup(message, sender, sendResponse) {
   searchParams.set('network', message.data.params.network);
   searchParams.set('request', JSON.stringify(message.data));
 
-  browser.browserAction.setPopup({popup: 'index.html#' + searchParams.toString()})
-  // todo: show the correct number of notifications
-  browser.browserAction.setBadgeText({text: "*"})
-
   responseHandlers.set(message.data.id, sendResponse);
+
+  browser.browserAction.setPopup({popup: 'index.html#' + searchParams.toString()})
+  browser.browserAction.setBadgeText({text: responseHandlers.size.toString()})
 }
 
 function handleConnect(message, sender, sendResponse) {
