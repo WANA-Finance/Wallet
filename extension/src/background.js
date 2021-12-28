@@ -42,6 +42,9 @@ function handleDisconnect(message, sender, sendResponse) {
 }
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  // reset popup state
+  browser.browserAction.setPopup({popup: 'index.html' })
+  browser.browserAction.setBadgeText({})
 
   if (message.channel === 'sollet_contentscript_background_channel') {
     if (message.data.method === 'connect') {
