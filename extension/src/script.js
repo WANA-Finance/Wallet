@@ -13,3 +13,5 @@ window.sollet = {
     );
   },
 };
+
+window.wana = window.sollet;

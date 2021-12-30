@@ -99,18 +99,8 @@ function CreateWalletForm() {
 
 function SeedWordsForm({ mnemonicAndSeed, goForward }) {
   const [confirmed, setConfirmed] = useState(false);
-  const [downloaded, setDownloaded] = useState(false);
   const [showDialog, setShowDialog] = useState(false);
   const [seedCheck, setSeedCheck] = useState('');
-
-  const downloadMnemonic = (mnemonic) => {
-    const url = window.URL.createObjectURL(new Blob([mnemonic]));
-    const link = document.createElement('a');
-    link.href = url;
-    link.setAttribute('download', 'sollet.bak');
-    document.body.appendChild(link);
-    link.click();
-  }
 
   return (
     <>
@@ -145,7 +135,7 @@ function SeedWordsForm({ mnemonicAndSeed, goForward }) {
             storage is cleared or your device is damaged or lost.
           </Typography>
           <Typography paragraph>
-            By default, sollet will use <code>m/44'/501'/0'/0'</code> as the
+            By default, WANA will use <code>m/44'/501'/0'/0'</code> as the
             derivation path for the main wallet. To use an alternative path, try
             restoring an existing wallet.
           </Typography>
@@ -159,17 +149,9 @@ function SeedWordsForm({ mnemonicAndSeed, goForward }) {
             }
             label="I have saved these words in a safe place."
           />
-          <Typography paragraph>
-          <Button variant="contained" color="primary" style={{ marginTop: 20 }} onClick={() => {
-            downloadMnemonic(mnemonicAndSeed?.mnemonic);
-            setDownloaded(true);
-          }}>
-            Download Backup Mnemonic File (Required)
-          </Button>
-          </Typography>
         </CardContent>
         <CardActions style={{ justifyContent: 'flex-end' }}>
-          <Button color="primary" disabled={!confirmed || !downloaded} onClick={() => setShowDialog(true)}>
+          <Button color="primary" disabled={!confirmed} onClick={() => setShowDialog(true)}>
             Continue
           </Button>
         </CardActions>

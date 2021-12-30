@@ -12,8 +12,6 @@ body {
 html,
 body,
 #root {
-  min-width: 375px;
-  min-height: 600px;
   height: 100%;
 }
 

@@ -132,7 +132,7 @@ function WalletSuggestionDialog({ open, onClose, onIgnore }) {
       <DialogTitle>Your New Solana SPL Token Wallet</DialogTitle>
       <DialogContent>
         <Typography>
-          Sollet is an{' '}
+          WANA is an{' '}
           <a
             style={{ color: 'inherit' }}
             href="https://github.com/twodayslate/spl-token-wallet"

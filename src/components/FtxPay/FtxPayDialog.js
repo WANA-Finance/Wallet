@@ -69,7 +69,7 @@ export default function FtxPayDialog({ open, onClose }) {
       </DialogTitle>
       <DialogContent>
         <DialogContentText>
-          Send funds to your Sollet wallet from an FTX account, where you can add funds using crypto on multiple blockchains, credit cards, and more.
+          Send funds to your WANA wallet from an FTX account, where you can add funds using crypto on multiple blockchains, credit cards, and more.
         </DialogContentText>
         <DialogContentText>
           If you don't have an FTX account, it may take a few moments to get up.

@@ -13,8 +13,8 @@
 		F661F8982776FDD0005C36E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F661F8962776FDD0005C36E8 /* Main.storyboard */; };
 		F661F8A12776FDD0005C36E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661F8A02776FDD0005C36E8 /* AppDelegate.swift */; };
 		F661F8A42776FDD0005C36E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F661F8A22776FDD0005C36E8 /* Main.storyboard */; };
-		F661F8AC2776FDD0005C36E8 /* Sollet Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F661F8AB2776FDD0005C36E8 /* Sollet Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		F661F8B62776FDD0005C36E8 /* Sollet Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F661F8B52776FDD0005C36E8 /* Sollet Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F661F8AC2776FDD0005C36E8 /* WANA Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F661F8AB2776FDD0005C36E8 /* WANA Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F661F8B62776FDD0005C36E8 /* WANA Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F661F8B52776FDD0005C36E8 /* WANA Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F661F8BC2776FDD0005C36E8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F661F87F2776FDCC005C36E8 /* Main.html */; };
 		F661F8BD2776FDD0005C36E8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F661F87F2776FDCC005C36E8 /* Main.html */; };
 		F661F8BE2776FDD0005C36E8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8812776FDCC005C36E8 /* Icon.png */; };
@@ -85,7 +85,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				F661F8AC2776FDD0005C36E8 /* Sollet Extension.appex in Embed App Extensions */,
+				F661F8AC2776FDD0005C36E8 /* WANA Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,7 +96,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				F661F8B62776FDD0005C36E8 /* Sollet Extension.appex in Embed App Extensions */,
+				F661F8B62776FDD0005C36E8 /* WANA Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,20 +111,20 @@
 		F661F8842776FDCC005C36E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F661F8852776FDD0005C36E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F661F8872776FDD0005C36E8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		F661F88C2776FDD0005C36E8 /* Sollet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sollet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661F88C2776FDD0005C36E8 /* WANA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WANA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F661F88F2776FDD0005C36E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F661F8912776FDD0005C36E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F661F8942776FDD0005C36E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F661F8972776FDD0005C36E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F661F8992776FDD0005C36E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F661F89E2776FDD0005C36E8 /* Sollet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sollet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661F89E2776FDD0005C36E8 /* WANA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WANA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F661F8A02776FDD0005C36E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F661F8A32776FDD0005C36E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F661F8A52776FDD0005C36E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F661F8A62776FDD0005C36E8 /* Sollet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sollet.entitlements; sourceTree = "<group>"; };
-		F661F8AB2776FDD0005C36E8 /* Sollet Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sollet Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661F8AB2776FDD0005C36E8 /* WANA Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WANA Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F661F8B02776FDD0005C36E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F661F8B52776FDD0005C36E8 /* Sollet Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sollet Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661F8B52776FDD0005C36E8 /* WANA Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WANA Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F661F8BA2776FDD0005C36E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F661F8BB2776FDD0005C36E8 /* Sollet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sollet.entitlements; sourceTree = "<group>"; };
 		F661F8DB2776FDD3005C36E8 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = favicon.ico; path = ../../../extension/build/favicon.ico; sourceTree = "<group>"; };
@@ -222,10 +222,10 @@
 		F661F88D2776FDD0005C36E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F661F88C2776FDD0005C36E8 /* Sollet.app */,
-				F661F89E2776FDD0005C36E8 /* Sollet.app */,
-				F661F8AB2776FDD0005C36E8 /* Sollet Extension.appex */,
-				F661F8B52776FDD0005C36E8 /* Sollet Extension.appex */,
+				F661F88C2776FDD0005C36E8 /* WANA.app */,
+				F661F89E2776FDD0005C36E8 /* WANA.app */,
+				F661F8AB2776FDD0005C36E8 /* WANA Extension.appex */,
+				F661F8B52776FDD0005C36E8 /* WANA Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -296,9 +296,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F661F88B2776FDD0005C36E8 /* Sollet (iOS) */ = {
+		F661F88B2776FDD0005C36E8 /* WANA (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F661F8D02776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet (iOS)" */;
+			buildConfigurationList = F661F8D02776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "WANA (iOS)" */;
 			buildPhases = (
 				F661F8882776FDD0005C36E8 /* Sources */,
 				F661F8892776FDD0005C36E8 /* Frameworks */,
@@ -310,14 +310,14 @@
 			dependencies = (
 				F661F8AE2776FDD0005C36E8 /* PBXTargetDependency */,
 			);
-			name = "Sollet (iOS)";
+			name = "WANA (iOS)";
 			productName = "Sollet (iOS)";
-			productReference = F661F88C2776FDD0005C36E8 /* Sollet.app */;
+			productReference = F661F88C2776FDD0005C36E8 /* WANA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F661F89D2776FDD0005C36E8 /* Sollet (macOS) */ = {
+		F661F89D2776FDD0005C36E8 /* WANA (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F661F8D72776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet (macOS)" */;
+			buildConfigurationList = F661F8D72776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "WANA (macOS)" */;
 			buildPhases = (
 				F661F89A2776FDD0005C36E8 /* Sources */,
 				F661F89B2776FDD0005C36E8 /* Frameworks */,
@@ -329,14 +329,14 @@
 			dependencies = (
 				F661F8B82776FDD0005C36E8 /* PBXTargetDependency */,
 			);
-			name = "Sollet (macOS)";
+			name = "WANA (macOS)";
 			productName = "Sollet (macOS)";
-			productReference = F661F89E2776FDD0005C36E8 /* Sollet.app */;
+			productReference = F661F89E2776FDD0005C36E8 /* WANA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F661F8AA2776FDD0005C36E8 /* Sollet Extension (iOS) */ = {
+		F661F8AA2776FDD0005C36E8 /* WANA Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F661F8CC2776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet Extension (iOS)" */;
+			buildConfigurationList = F661F8CC2776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "WANA Extension (iOS)" */;
 			buildPhases = (
 				F661F8A72776FDD0005C36E8 /* Sources */,
 				F661F8A82776FDD0005C36E8 /* Frameworks */,
@@ -346,14 +346,14 @@
 			);
 			dependencies = (
 			);
-			name = "Sollet Extension (iOS)";
+			name = "WANA Extension (iOS)";
 			productName = "Sollet Extension (iOS)";
-			productReference = F661F8AB2776FDD0005C36E8 /* Sollet Extension.appex */;
+			productReference = F661F8AB2776FDD0005C36E8 /* WANA Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		F661F8B42776FDD0005C36E8 /* Sollet Extension (macOS) */ = {
+		F661F8B42776FDD0005C36E8 /* WANA Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F661F8D32776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet Extension (macOS)" */;
+			buildConfigurationList = F661F8D32776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "WANA Extension (macOS)" */;
 			buildPhases = (
 				F661F8B12776FDD0005C36E8 /* Sources */,
 				F661F8B22776FDD0005C36E8 /* Frameworks */,
@@ -363,9 +363,9 @@
 			);
 			dependencies = (
 			);
-			name = "Sollet Extension (macOS)";
+			name = "WANA Extension (macOS)";
 			productName = "Sollet Extension (macOS)";
-			productReference = F661F8B52776FDD0005C36E8 /* Sollet Extension.appex */;
+			productReference = F661F8B52776FDD0005C36E8 /* WANA Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -392,7 +392,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F661F87C2776FDCC005C36E8 /* Build configuration list for PBXProject "Sollet" */;
+			buildConfigurationList = F661F87C2776FDCC005C36E8 /* Build configuration list for PBXProject "WANA" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -405,10 +405,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F661F88B2776FDD0005C36E8 /* Sollet (iOS) */,
-				F661F89D2776FDD0005C36E8 /* Sollet (macOS) */,
-				F661F8AA2776FDD0005C36E8 /* Sollet Extension (iOS) */,
-				F661F8B42776FDD0005C36E8 /* Sollet Extension (macOS) */,
+				F661F88B2776FDD0005C36E8 /* WANA (iOS) */,
+				F661F89D2776FDD0005C36E8 /* WANA (macOS) */,
+				F661F8AA2776FDD0005C36E8 /* WANA Extension (iOS) */,
+				F661F8B42776FDD0005C36E8 /* WANA Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -528,12 +528,12 @@
 /* Begin PBXTargetDependency section */
 		F661F8AE2776FDD0005C36E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F661F8AA2776FDD0005C36E8 /* Sollet Extension (iOS) */;
+			target = F661F8AA2776FDD0005C36E8 /* WANA Extension (iOS) */;
 			targetProxy = F661F8AD2776FDD0005C36E8 /* PBXContainerItemProxy */;
 		};
 		F661F8B82776FDD0005C36E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F661F8B42776FDD0005C36E8 /* Sollet Extension (macOS) */;
+			target = F661F8B42776FDD0005C36E8 /* WANA Extension (macOS) */;
 			targetProxy = F661F8B72776FDD0005C36E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -690,9 +690,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6L3992RFB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Sollet Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "WANA Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -706,7 +707,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet.Extension;
-				PRODUCT_NAME = "Sollet Extension";
+				PRODUCT_NAME = "WANA Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -720,9 +721,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6L3992RFB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Sollet Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "WANA Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -736,7 +738,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet.Extension;
-				PRODUCT_NAME = "Sollet Extension";
+				PRODUCT_NAME = "WANA Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -754,9 +756,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6L3992RFB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Sollet;
+				INFOPLIST_KEY_CFBundleDisplayName = WANA;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -775,7 +778,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet;
-				PRODUCT_NAME = Sollet;
+				PRODUCT_NAME = WANA;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -791,9 +794,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6L3992RFB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Sollet;
+				INFOPLIST_KEY_CFBundleDisplayName = WANA;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -812,7 +816,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet;
-				PRODUCT_NAME = Sollet;
+				PRODUCT_NAME = WANA;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -844,7 +848,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet.Extension;
-				PRODUCT_NAME = "Sollet Extension";
+				PRODUCT_NAME = "WANA Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -875,7 +879,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet.Extension;
-				PRODUCT_NAME = "Sollet Extension";
+				PRODUCT_NAME = "WANA Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -912,7 +916,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet;
-				PRODUCT_NAME = Sollet;
+				PRODUCT_NAME = WANA;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -948,7 +952,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.Sollet;
-				PRODUCT_NAME = Sollet;
+				PRODUCT_NAME = WANA;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -958,7 +962,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F661F87C2776FDCC005C36E8 /* Build configuration list for PBXProject "Sollet" */ = {
+		F661F87C2776FDCC005C36E8 /* Build configuration list for PBXProject "WANA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F661F8CA2776FDD0005C36E8 /* Debug */,
@@ -967,7 +971,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F661F8CC2776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet Extension (iOS)" */ = {
+		F661F8CC2776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "WANA Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F661F8CD2776FDD0005C36E8 /* Debug */,
@@ -976,7 +980,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F661F8D02776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet (iOS)" */ = {
+		F661F8D02776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "WANA (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F661F8D12776FDD0005C36E8 /* Debug */,
@@ -985,7 +989,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F661F8D32776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet Extension (macOS)" */ = {
+		F661F8D32776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "WANA Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F661F8D42776FDD0005C36E8 /* Debug */,
@@ -994,7 +998,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F661F8D72776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "Sollet (macOS)" */ = {
+		F661F8D72776FDD0005C36E8 /* Build configuration list for PBXNativeTarget "WANA (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F661F8D82776FDD0005C36E8 /* Debug */,
