@@ -1,5 +1,5 @@
 import React, { Suspense, useState } from 'react';
-import { makeStyles, List, ListItem } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import {
@@ -126,7 +126,6 @@ const useStyles = makeStyles(() => ({
 }));
 
 function WalletSuggestionDialog({ open, onClose, onIgnore }) {
-  const classes = useStyles();
   return (
     <DialogForm open={open} onClose={onClose} fullWidth>
       <DialogTitle>Your New Solana SPL Token Wallet</DialogTitle>
