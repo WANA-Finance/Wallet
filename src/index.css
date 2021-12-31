@@ -5,37 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-
-/* TODO consolidate popup dimensions */
-html,
-body,
-#root {
   height: 100%;
+  width: 100%;
 }
 
-/* TODO consolidate popup dimensions */
-@media screen and (max-height: 700px) {
-  html,
-  body,
-  #root {
-    max-height: 600px;
-  }
-}
-
-/* TODO consolidate popup dimensions */
-@media screen and (max-width: 450px) {
-  html,
-  body,
-  #root {
-    max-width: 375px;
-  }
-  html::-webkit-scrollbar,
-  body::-webkit-scrollbar,
-  #root::-webkit-scrollbar { 
-      width: 1px;
-      background: transparent;
+/* iPad specific */
+/* https://stackoverflow.com/a/11531599/193772 */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  body {
+    min-height: 600px;
+    min-width: 375px;
   }
 }
 

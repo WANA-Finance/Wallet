@@ -64,7 +64,7 @@ export default function DebugButtons() {
   const requestAirdropDisabled = endpoint === MAINNET_URL;
   const spacing = 24;
   return (
-    <div style={{ display: 'flex', marginLeft: spacing }}>
+    <div style={{ display: 'flex', marginLeft: spacing, marginRight: spacing }}>
       <Tooltip
         title={
           requestAirdropDisabled
