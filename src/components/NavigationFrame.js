@@ -88,7 +88,7 @@ export default function NavigationFrame({ children }) {
             }}
           >
             <Typography>
-              Beware of sites attempting to impersonate sollet.io or other DeFi
+              Beware of sites attempting to impersonate WANA or other DeFi
               services.
             </Typography>
           </div>
@@ -460,7 +460,7 @@ function Footer() {
         component="a"
         target="_blank"
         rel="noopener"
-        href="https://github.com/serum-foundation/spl-token-wallet"
+        href="https://github.com/twodayslate/spl-token-wallet"
         startIcon={<CodeIcon />}
       >
         View Source
