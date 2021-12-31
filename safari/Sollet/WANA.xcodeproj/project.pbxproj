@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60390E9277EACDA00C67EEA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F60390E8277EACDA00C67EEA /* Icon.png */; };
+		F60390EA277EACDA00C67EEA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F60390E8277EACDA00C67EEA /* Icon.png */; };
 		F661F8902776FDD0005C36E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661F88F2776FDD0005C36E8 /* AppDelegate.swift */; };
 		F661F8922776FDD0005C36E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661F8912776FDD0005C36E8 /* SceneDelegate.swift */; };
 		F661F8952776FDD0005C36E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F661F8932776FDD0005C36E8 /* LaunchScreen.storyboard */; };
@@ -17,8 +19,6 @@
 		F661F8B62776FDD0005C36E8 /* WANA Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F661F8B52776FDD0005C36E8 /* WANA Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F661F8BC2776FDD0005C36E8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F661F87F2776FDCC005C36E8 /* Main.html */; };
 		F661F8BD2776FDD0005C36E8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F661F87F2776FDCC005C36E8 /* Main.html */; };
-		F661F8BE2776FDD0005C36E8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8812776FDCC005C36E8 /* Icon.png */; };
-		F661F8BF2776FDD0005C36E8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F661F8812776FDCC005C36E8 /* Icon.png */; };
 		F661F8C02776FDD0005C36E8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F661F8822776FDCC005C36E8 /* Style.css */; };
 		F661F8C12776FDD0005C36E8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F661F8822776FDCC005C36E8 /* Style.css */; };
 		F661F8C22776FDD0005C36E8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F661F8832776FDCC005C36E8 /* Script.js */; };
@@ -104,8 +104,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F60390E8277EACDA00C67EEA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "Shared (App)/Assets.xcassets/AppIcon.appiconset/Icon.png"; sourceTree = SOURCE_ROOT; };
 		F661F8802776FDCC005C36E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		F661F8812776FDCC005C36E8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		F661F8822776FDCC005C36E8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		F661F8832776FDCC005C36E8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		F661F8842776FDCC005C36E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -202,8 +202,8 @@
 		F661F87E2776FDCC005C36E8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F60390E8277EACDA00C67EEA /* Icon.png */,
 				F661F87F2776FDCC005C36E8 /* Main.html */,
-				F661F8812776FDCC005C36E8 /* Icon.png */,
 				F661F8822776FDCC005C36E8 /* Style.css */,
 				F661F8832776FDCC005C36E8 /* Script.js */,
 			);
@@ -418,8 +418,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F661F8BE2776FDD0005C36E8 /* Icon.png in Resources */,
 				F661F8952776FDD0005C36E8 /* LaunchScreen.storyboard in Resources */,
+				F60390E9277EACDA00C67EEA /* Icon.png in Resources */,
 				F661F8BC2776FDD0005C36E8 /* Main.html in Resources */,
 				F661F8C22776FDD0005C36E8 /* Script.js in Resources */,
 				F661F8C62776FDD0005C36E8 /* Assets.xcassets in Resources */,
@@ -432,12 +432,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F661F8BF2776FDD0005C36E8 /* Icon.png in Resources */,
 				F661F8C12776FDD0005C36E8 /* Style.css in Resources */,
 				F661F8A42776FDD0005C36E8 /* Main.storyboard in Resources */,
 				F661F8C32776FDD0005C36E8 /* Script.js in Resources */,
 				F661F8C72776FDD0005C36E8 /* Assets.xcassets in Resources */,
 				F661F8BD2776FDD0005C36E8 /* Main.html in Resources */,
+				F60390EA277EACDA00C67EEA /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,7 +689,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = C6L3992RFB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
@@ -720,7 +720,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = C6L3992RFB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
@@ -755,7 +755,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = C6L3992RFB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -793,7 +793,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = C6L3992RFB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -830,7 +830,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Sollet.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -861,7 +861,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Sollet.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -895,7 +895,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Sollet.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
@@ -931,7 +931,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Sollet.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
