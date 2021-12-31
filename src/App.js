@@ -1,5 +1,4 @@
 import React, { Suspense, useState } from 'react';
-import { makeStyles } from '@material-ui/core';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import {
@@ -105,8 +104,8 @@ function PageContents() {
     );
   }
   const params = new URLSearchParams(window.location.hash.slice(1));
-  if (params.get('origin')) {
-    return <PopupPage opener={params.get('origin')} />;
+  if (window.opener || params.get('origin')) {
+    return <PopupPage opener={window.opener} />;
   }
   if (page === 'wallet') {
     return <WalletPage />;
@@ -114,16 +113,6 @@ function PageContents() {
     return <ConnectionsPage />;
   }
 }
-
-const useStyles = makeStyles(() => ({
-  walletButton: {
-    width: '100%',
-    padding: '16px',
-    '&:hover': {
-      cursor: 'pointer',
-    },
-  },
-}));
 
 function WalletSuggestionDialog({ open, onClose, onIgnore }) {
   return (

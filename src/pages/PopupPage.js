@@ -156,14 +156,14 @@ export default function PopupPage({ opener }) {
   // Push requests from the parent window into a queue.
   useEffect(() => {
     function messageHandler(e) {
-      //if (e.origin === origin && e.source === window.opener) {
+      if (isExtension || (e.origin === origin && e.source === window.opener)) {
         if (!AUTHORIZED_METHODS.includes(e.data.method)) {
           postMessage({ error: 'Unsupported method', id: e.data.id });
         }
 
         setRequests((requests) => [...requests, e.data]);
       }
-    //}
+    }
     window.addEventListener('message', messageHandler);
     return () => window.removeEventListener('message', messageHandler);
   }, [origin, postMessage]);
