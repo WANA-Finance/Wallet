@@ -26,6 +26,73 @@ import ConnectionsPage from './pages/ConnectionsPage';
 import { isExtension } from './utils/utils';
 import { PageProvider, usePage } from './utils/page';
 
+import { Routes, Route } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown';
+import { Component } from 'react';
+import privacyPath from './pages/privacy.md';
+import termsPath from './pages/terms.md';
+
+class MarkDownPath extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { text: '' };
+  }
+
+  componentWillMount() {
+    fetch(this.props.path)
+      .then((response) => response.text())
+      .then((text) => {
+        this.setState({ text: text });
+      });
+  }
+
+  render() {
+    return (
+      <div className="content">
+        <ReactMarkdown>{this.state.text}</ReactMarkdown>
+      </div>
+    );
+  }
+}
+
+function Privacy() {
+  return <MarkDownPath path={privacyPath}></MarkDownPath>;
+}
+
+function Terms() {
+  return <MarkDownPath path={termsPath}></MarkDownPath>;
+}
+
+function Main() {
+  let appElement = (
+    <NavigationFrame>
+      <Suspense fallback={<LoadingIndicator />}>
+        <PageContents />
+      </Suspense>
+    </NavigationFrame>
+  );
+
+  if (isExtension) {
+    appElement = (
+      <ConnectedWalletsProvider>
+        <PageProvider>{appElement}</PageProvider>
+      </ConnectedWalletsProvider>
+    );
+  }
+
+  return (
+    <Routes>
+      <Route
+        path="/"
+        element={<WalletProvider>{appElement}</WalletProvider>}
+      ></Route>
+      <Route exact path="/terms" element={<Terms />}></Route>
+      <Route path="/privacy" element={<Privacy />}></Route>
+    </Routes>
+  );
+}
+
 export default function App() {
   // TODO: add toggle for dark mode
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
@@ -47,22 +114,6 @@ export default function App() {
     return null;
   }
 
-  let appElement = (
-    <NavigationFrame>
-      <Suspense fallback={<LoadingIndicator />}>
-        <PageContents />
-      </Suspense>
-    </NavigationFrame>
-  );
-
-  if (isExtension) {
-    appElement = (
-      <ConnectedWalletsProvider>
-        <PageProvider>{appElement}</PageProvider>
-      </ConnectedWalletsProvider>
-    );
-  }
-
   return (
     <Suspense fallback={<LoadingIndicator />}>
       <ThemeProvider theme={theme}>
@@ -71,7 +122,7 @@ export default function App() {
         <ConnectionProvider>
           <TokenRegistryProvider>
             <SnackbarProvider maxSnack={5} autoHideDuration={8000}>
-              <WalletProvider>{appElement}</WalletProvider>
+              <Main />
             </SnackbarProvider>
           </TokenRegistryProvider>
         </ConnectionProvider>
